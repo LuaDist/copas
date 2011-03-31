@@ -1,0 +1,16 @@
+--- This file is part of LuaDist project
+
+name = "copas"
+version = "1.1.6"
+
+desc = "Coroutine Oriented Portable Asynchronous Services"
+author = "André Carregal, Javier Guerra"
+license = "MIT/X11"
+url = "http://www.keplerproject.org/copas/"
+maintainer = "Peter Drahoš"
+
+depends = {
+	"lua ~> 5.1",
+	"luasocket >= 2.0",
+	"coxpcall >=1.13"
+}
